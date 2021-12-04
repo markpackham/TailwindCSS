@@ -9,6 +9,13 @@ module.exports = {
       screens: {
         "3xl": "1800px",
       },
+      colors: {
+        "gold-light": "#F0E68C",
+        "gold-dark": "#996515",
+        red: {
+          450: "#CC0000",
+        },
+      },
     },
     screens: {
       sm: "640px",
