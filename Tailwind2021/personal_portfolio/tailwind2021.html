@@ -9,6 +9,10 @@
     <title>Tailwind 2021</title>
 </head>
 <body>
+    <h2 class="text-4xl font-bold text-center py-8">
+        Grid
+    </h2>
+
     <div class="grid grid-cols-3 gap-4">
         <div class="bg-red-500 text-white h-full col-span-2 row-span-2">
             <p>This is my first grid item</p>
@@ -21,6 +25,22 @@
         </div>
         <div class="bg-purple-500 text-white h-24">
             <p>This is my fourth grid item</p>
+        </div>
+    </div>
+
+    <h2 class="text-4xl font-bold text-center py-8">
+        Flexbox
+    </h2>
+
+    <div class="flex flex-wrap gap-4 h-full">
+        <div class="bg-red-500 text-white h-26 flex-auto">
+            <p>Flex item 1</p>
+        </div>
+        <div class="bg-blue-500 text-white h-26 flex-auto">
+            <p>Flex item 2</p>
+        </div>
+        <div class="bg-yellow-500 text-white h-26">
+            <p>Flex item 3</p>
         </div>
     </div>
 </body>
