@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
     <title>Tailwind 2021</title>
 </head>
 <body>
-    <div class="bg-blue-500 w-full h-full">
-        <div class="bg-red-500 h-4/5 w-4/5 m-auto -ml-20">
-            <h1 class="bg-red-500 text-white w-max py-4">Tailwind!</h1>
+    <div class="grid grid-cols-3 gap-4">
+        <div class="bg-red-500 text-white h-full col-span-2 row-span-2">
+            <p>This is my first grid item</p>
+        </div>
+        <div class="bg-blue-500 text-white h-24">
+            <p>This is my second grid item</p>
+        </div>
+        <div class="bg-yellow-500 text-white h-24">
+            <p>This is my third grid item</p>
+        </div>
+        <div class="bg-purple-500 text-white h-24">
+            <p>This is my fourth grid item</p>
         </div>
     </div>
 </body>
